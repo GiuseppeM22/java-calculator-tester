@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1efe5bb-d17c-476f-a398-7cb0d7db07c5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,23 +73,7 @@
       <recent name="org.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.divide">
-    <configuration name="CalculatorTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-calculator-tester" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.model" />
-      <option name="MAIN_CLASS_NAME" value="org.model.CalculatorTest" />
-      <option name="METHOD_NAME" value="add" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TicketTest.testCostruttore">
     <configuration name="CalculatorTest.divide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-calculator-tester" />
       <extension name="coverage">
@@ -107,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.multiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicketTest.calcolaPrezzoBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-calculator-tester" />
       <extension name="coverage">
         <pattern>
@@ -116,14 +99,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.model" />
-      <option name="MAIN_CLASS_NAME" value="org.model.CalculatorTest" />
-      <option name="METHOD_NAME" value="multiply" />
+      <option name="MAIN_CLASS_NAME" value="org.model.TicketTest" />
+      <option name="METHOD_NAME" value="calcolaPrezzoBase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.subtract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicketTest.calcolaPrezzoJunior" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-calculator-tester" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +115,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.model" />
-      <option name="MAIN_CLASS_NAME" value="org.model.CalculatorTest" />
-      <option name="METHOD_NAME" value="subtract" />
+      <option name="MAIN_CLASS_NAME" value="org.model.TicketTest" />
+      <option name="METHOD_NAME" value="calcolaPrezzoJunior" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketTest.calcolaPrezzoSenior" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-calculator-tester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.model" />
+      <option name="MAIN_CLASS_NAME" value="org.model.TicketTest" />
+      <option name="METHOD_NAME" value="calcolaPrezzoSenior" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketTest.testCostruttore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-calculator-tester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.model" />
+      <option name="MAIN_CLASS_NAME" value="org.model.TicketTest" />
+      <option name="METHOD_NAME" value="testCostruttore" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,10 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TicketTest.testCostruttore" />
+        <item itemvalue="JUnit.TicketTest.calcolaPrezzoSenior" />
+        <item itemvalue="JUnit.TicketTest.calcolaPrezzoJunior" />
+        <item itemvalue="JUnit.TicketTest.calcolaPrezzoBase" />
         <item itemvalue="JUnit.CalculatorTest.divide" />
-        <item itemvalue="JUnit.CalculatorTest.multiply" />
-        <item itemvalue="JUnit.CalculatorTest.subtract" />
-        <item itemvalue="JUnit.CalculatorTest.add" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +173,29 @@
       <option name="presentableId" value="Default" />
       <updated>1712750684205</updated>
     </task>
+    <task id="LOCAL-00001" summary="add test">
+      <option name="closed" value="true" />
+      <created>1712755466383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712755466383</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add all test">
+      <option name="closed" value="true" />
+      <created>1712755556613</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712755556613</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add test" />
+    <MESSAGE value="add all test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add all test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
